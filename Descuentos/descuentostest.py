@@ -3,7 +3,9 @@
 import unittest
 from descuentos import Descuentos
 
+
 class DescuentosTest(unittest.TestCase):
+    
     # Test fixtures
     def setUp(self):
         self.descuentos = Descuentos()
